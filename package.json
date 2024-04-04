@@ -2,7 +2,7 @@
   "name": "vercel-test",
   "private": true,
   "scripts": {
-    "build": "vite build && vite build --ssr",
+    "build": "prisma generate && vite build && vite build --ssr",
     "dev": "shopify app dev",
     "config:link": "shopify app config link",
     "generate": "shopify app generate",
@@ -16,7 +16,8 @@
     "shopify": "shopify",
     "prisma": "prisma",
     "graphql-codegen": "graphql-codegen",
-    "vite": "vite"
+    "vite": "vite",
+    "postinstall": "prisma generate"
   },
   "type": "module",
   "dependencies": {
