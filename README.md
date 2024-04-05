@@ -1,6 +1,6 @@
 ### This is a summary about hosting Shopify app on Vercel
     
-### This APP hosts on Vercel successfully
+### This APP is hosted on Vercel successfully
 [Vercel URL](https://vercel.com/hugh-zhou-hhs-projects/vercel-deployment-test)
     
 [Shopify partner admin](https://partners.shopify.com/2560999/apps/104047247361/overview)
@@ -24,7 +24,7 @@
     
 4. In `prisma/migrations/.../migration.sql`, update `"expires" DATETIME` to `"expires" TIMESTAMP(3)`;
     
-5. Deploy the app on Shopify partner admin "npm run deploy" and distribute it to the store(s);
+5. Deploy the app on Shopify partner admin `npm run deploy` and distribute it to the store(s);
     
 6. Use `npm run shopify app env show` to get `SCOPES`, `SHOPIFY_API_KEY`, and the `SHOPIFY_API_SECRET` values;
     
