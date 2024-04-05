@@ -1,4 +1,4 @@
-### This is a record about hosting Shopify app on Vercel
+### This is a summary about hosting Shopify app on Vercel
     
 ### This APP hosts on Vercel successfully
 [Vercel URL](https://vercel.com/hugh-zhou-hhs-projects/vercel-deployment-test)
